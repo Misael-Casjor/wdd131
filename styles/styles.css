@@ -1,0 +1,33 @@
+*{
+height: 100%;
+}
+body{
+    display: grid;
+    grid-template: 1fr 40px 4fr 2fr / 2fr 1fr;
+}
+header{
+    grid-column: 1/3;
+    color:white;
+    background-color: rgb(73, 73, 73);
+}
+nav{
+    grid-column: 1/3;
+    color:white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    
+}
+main{
+    background-color: gray;
+    color: rgb(39, 38, 38);
+}
+aside{
+    background-color: gainsboro;
+    color: rgb(86, 86, 86);
+}
+footer{
+     grid-column: 1/3;
+     color:white;
+     background-color: rgb(73, 73, 73); 
+}
