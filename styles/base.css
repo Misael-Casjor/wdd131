@@ -10,7 +10,9 @@ p, ul{
     font-size: 1.3rem;
     font-family: "Space Grotesk", sans-serif;
 }
-
+main{
+    max-width: 1300px;
+}
 .navigation{
     background-color: #232020;
     display: flex;
