@@ -6,7 +6,7 @@ header {
     background-color: #0E6BA8;
     color: #dad9d9
 }
-p{
+p, ul{
     font-size: 1.3rem;
     font-family: "Space Grotesk", sans-serif;
 }
@@ -40,7 +40,7 @@ p{
     grid-column: 1/4;
     grid-row: 2/3;
 }
-#iTitle{
+.iTitle{
     grid-column: 1/5;
     margin: 0;
     border-radius: 20px 20px 0 0;
@@ -59,6 +59,13 @@ img{
     border: 1px solid black;
     border-radius: 20px;
     margin: 5px;
+    display: grid;
+    grid-template-rows: 40px 1fr;
+
+}
+#list{
+    grid-column: 2/4;
+   margin:4rem;
 }
 
 .footerbox {
