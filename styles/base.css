@@ -1,6 +1,9 @@
-h1{
+h1,h2{
     text-align: center;
     background-color: #0E6BA8;
+}
+h3{
+    font-size: 1.5rem;
 }
 header {
     background-color: #0E6BA8;
