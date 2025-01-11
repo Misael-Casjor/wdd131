@@ -6,6 +6,11 @@ header {
     background-color: #0E6BA8;
     color: #dad9d9
 }
+p{
+    font-size: 1.3rem;
+    font-family: "Space Grotesk", sans-serif;
+}
+
 .navigation{
     background-color: #232020;
     display: flex;
