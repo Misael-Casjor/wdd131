@@ -1,0 +1,18 @@
+header{
+    background-color: rgb(80, 80, 228);
+}
+nav{
+    background-color: rgb(63, 62, 62);
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
