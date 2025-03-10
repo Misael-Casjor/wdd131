@@ -6,7 +6,11 @@
     <meta name="author" content="Misael Castro" />
     <meta name="description" content="WDD 131 – Dynamic Web Fundamentals -Misael Castro- this is the main page of my proyect in this block" />
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>WDD 131 – Dynamic Web Fundamentals - Misael Castro</title>
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
@@ -15,36 +19,39 @@
         <a href="https://ca.linkedin.com/">LinkedIn</a>
         <a href="https://byupw.instructure.com/.">Canvas</a>
         <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27">Favorite Scripture</a>
+
+
         <a href="">Final Proyect</a>
     </nav>
     </header>
     <main>
         <section id="c1" class="card">
-            <h1>About me</h1>
-            <p >Hello, My name is Misael Castro, Im from Valparaiso, Chile but I moved to Canada aound a year ago
-                I love to lear no things and I realised how much I like coding too.
-            <img src="">
+            <h1 class="ctittles">About me</h1>
+            <p id="p1" >Hello, My name is Misael Castro, Im from Valparaiso, Chile and I moved to the other side of the continent to get here in Canada around a year ago (I realized how cold is in here). <br>
+                I love leaning new things, travel around Canada, go fishing, camping, and I realised how much I like coding too.
+          
             </p>
+            <img id="porfile" src="images/porfile-(1).jpg" width="150" alt="me fishing">
             <h2>Valparaiso, Chile</h2>
-            <p>Valparaiso is a touristic place with beautiful beaches, awesome views
-                and a lot of history, a good place to visit if you like the ocean!
+            <p id="p2">Valparaiso is a big city that was the principal port of chile, now is a good touristic place with beautiful beaches, awesome views
+                and a lot of history, a good place to visit if you like hot weather, the ocean and seafood too!
             </p>
-            <img scr="">
+            <img id="flag" src="images/chilean_flag.jpg" width="150" alt="Chilean flag">
 
         </section>
         <section id="c2" class="card">
-            <h1>Web Dev Resources</h1>
+            <h1 class="ctittles">Web Dev Resources</h1>
             <ul>
-            <a href="https://www.w3schools.com/">W3 Schools</a>
-            <a href="https://css-tricks.com/">CSS Tricks</a>
-            <a href="https://coolors.co/">Coolors</a>
-            <a href="https://www.udemy.com/">Udemi</a>
-            </ul>
+        <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+        <li><a href="https://coolors.co/">Coolors</a></li>
+        <li><a href="https://www.udemy.com/">Udemi</a></li>
+        <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+        </ul>
         </section>
     </main>
     <footer>
         <p><span id="currentyear"></span> Misael Castro </p>
-        <p> </p>
+        <p><span id="lastModif"></span></p>
     </footer>
 </body>
 </html>
