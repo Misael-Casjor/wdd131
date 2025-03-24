@@ -5,6 +5,10 @@
 }
 
 @media (min-width: 801px){
+    h2{
+       margin-top: 5% ;
+       text-align: center;
+    }
 
     img{
         width: 250px;
@@ -18,13 +22,17 @@
             list-style: none;
             color: var(--secondary-color);
             padding: 10px;
+            background-color: var(--background-color);
         }
     nav{
-        background-color: #0A0908;
+        background-color: var(--background-color); 
+        display: flex;
+
     }
-    nav a {
-            padding: 10px 20px 10px 20px;
-        }
+    #navBar{
+        background-color: var(--background-color);
+    }
+ 
     
     nav a:hover {
             background-color: #423d39;
