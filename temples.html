@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link name="stylesheet" href="styles/temples.css">
-    <link name="stylesheet" href="styles/temples-large.css">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
     <script src="scripts/temples.js" defer></script>
-    <title>Document</title>
+    <script src="scripts/getdates.js" defer></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+    <title>Temple Album</title>
 </head>
 <body>
+    
+<div id="top">
     <header>
         <h1>Temple Album</h1>
+        <button id="menu"></button>
         <nav>
-            <ul>
+            <ul id="navBar">
                 <li><a>Home</a></li>
                 <li><a>Old</a></li>
                 <li><a>New</a></li>
@@ -21,9 +28,10 @@
             </ul>
         </nav>
     </header>
-
+</div>
     <main>
         <h2>Temples</h2>
+    <div id="images">
         <figure>
             <img src="images/santiagoTemple1r.jpg" alt="Santiago Temple pic 1" width="250">
             <figcaption> Santiago temple Hight view</figcaption>
@@ -60,11 +68,12 @@
             <img src="images/torontoTemple3r.jpg" alt="toronto temple pic 3" width="250">
             <figcaption>Toronto temple night view</figcaption>
         </figure>
-
+    </div>
     </main>
 
     <footer>
-        ©2024 🎣 Misael Castro 🎣 Canada
+                <p><span id="currentyear"></span>©2024 🎣 Misael Castro 🎣 Canada</p>
+                <p id="date"><span id="lastModif"></span></p>
     </footer>
 </body>
 </html>

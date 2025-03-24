@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #0078D4;
+    --secondary-color: #F2F4F3;
+    --background-color: #0A0908;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Roboto, sans-serif;
+
+}
+
+#top {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: grid;
+    grid-template-rows: 80px 40px;
+    text-align: center;
+}
+
+#navBar {
+    display: flex;
+    display: none;
+    position:absolute;
+    width: 100%;
+}
+
+#navBar.open {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    color:#0A0908;
+    list-style:none;
+    z-index: 999;
+   
+    
+}
+
+
+
+
+
+#menu {
+    font-size: 1.5rem;
+    background: none;
+    border: 2px solid white;
+    position: absolute;
+    right: 10px;
+    background-color: #F2F4F3;
+    z-index: 1000;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+    color: black;
+}
+
+
+
+nav a:hover {
+    background-color: #e1e1e1;
+}
+
+#images {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 25px;
+    place-items: center;
+}
+
+img {
+    width: 150px;
+}
+
+li a {
+    display: block;
+    padding: 10px 20px;
+}
+footer{
+    display: grid;
+    grid-row: 30px 30px;
+    text-align: center;
+}
+
+

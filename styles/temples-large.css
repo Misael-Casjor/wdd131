@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #0078D4;
+    --secondary-color: #F2F4F3;
+    --background-color: #0A0908;
+}
+
+@media (min-width: 801px){
+
+    img{
+        width: 250px;
+    }
+    #menu{
+        display: none;
+    }
+    nav #navBar {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            color: var(--secondary-color);
+            padding: 10px;
+        }
+    nav{
+        background-color: #0A0908;
+    }
+    nav a {
+            padding: 10px 20px 10px 20px;
+        }
+    
+    nav a:hover {
+            background-color: #423d39;
+        }
+}
