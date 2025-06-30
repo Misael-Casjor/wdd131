@@ -18,18 +18,14 @@ header{
 
 nav{
     background-color: black;
-}
-ul{
-    
-
     display: flex;
     justify-content: space-around;
-    
-
 }
+
 a{
     text-decoration: none;
     color: white;
+    padding: 15px;
 }
 
 main{
