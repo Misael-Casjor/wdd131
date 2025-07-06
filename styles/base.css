@@ -1,0 +1,49 @@
+header{
+    background: linear-gradient(to right, rgb(3, 123, 15), rgb(7, 107, 21));
+    color: white;
+}
+
+#navUl{
+    display: flex;
+    justify-content: space-around;
+}
+
+#navUl li{
+    list-style: none;
+
+}
+
+#navUl li a{
+    color:  white;
+    text-decoration: none;
+}
+main{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+.card h2{
+    margin: 0;
+    background: linear-gradient(to right, rgb(3, 123, 15), rgb(7, 107, 21));
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 5px;
+}
+
+h3{
+    text-decoration: underline;
+}
+p, h3{
+    padding: 5px
+}
+
+.card ul li{
+    margin-bottom: 15px;
+}
