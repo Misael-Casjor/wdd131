@@ -37,7 +37,7 @@ span{
     text-decoration: none;
     padding: 10px;
 }
-#navUl li :hover{
+nav li :hover{
     background-color: black ;
 }
 main{
