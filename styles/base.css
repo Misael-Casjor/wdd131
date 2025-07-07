@@ -1,3 +1,14 @@
+
+h1,
+h2,
+h3,
+h4{
+    font-family: "Roboto", sans-serif;
+}
+p,
+a{
+    font-family: "Libertinus", Arial, Helvetica, sans-serif;
+}
 header{
     background: linear-gradient(to right, rgb(51, 94, 186),rgb(3, 77, 123) );
     color: white;
@@ -32,6 +43,13 @@ span{
 main{
     display: grid;
     grid-template-columns: 60% 40%;
+    grid-template-rows:16% 42% 42% ;
+}
+h1{
+    grid-area: 1/1/2/3;
+    padding: 0;
+    text-align: center;
+
 }
 .card{
 
@@ -40,6 +58,7 @@ main{
     margin: 5px; 
 }
 #card1{
+    grid-area: 2/1/4/2;
     display: grid;
     grid-template: 8.5% 1fr 15% 1fr/ 25% 1fr 25%;
 }
@@ -67,7 +86,9 @@ h2{
    
 
 }
-
+#card2{
+    grid-area: 2/2/4/3;
+}
 #card2 ul{
  display: flex;
  flex-direction: column;
