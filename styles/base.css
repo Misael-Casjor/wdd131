@@ -1,0 +1,40 @@
+body{
+    margin:0;
+}
+header{
+    background-color: rgb(36, 124, 174);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+header span{
+    font-size: 30px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    color: beige;
+    text-decoration: none;
+    list-style: none;
+}
+header nav ul a:visited{
+    color: beige;
+    text-decoration: none;
+}
+main{
+    text-align: center;
+   display:grid;
+   grid-template: 15% 1fr/ 1fr 1fr;
+}
+main h1{
+    grid-area: 1 / 1/ 2 / 3;
+}
+
+section{
+    font-family: "Libertinus Mono", monospace;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+
+}
