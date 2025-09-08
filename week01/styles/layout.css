@@ -1,0 +1,36 @@
+body{
+    display: grid;
+    grid-template: 1fr  1fr 1fr 30%/ 1fr 40% ;
+    min-height: 500px;
+}
+
+header{
+    background-color: gray;
+    grid-area: 1 / 1 / 2 / 3 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+nav{
+    color: white;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+main{
+    background-color: lightblue;
+    grid-area: 2 / 1 / 4 / 2;
+}
+aside{
+    grid-area: 2 / 2 / 4 / 3;
+}
+footer{
+    background-color: gray;
+    grid-area: 4 / 1 / 5 / 3;
+    text-align: center;
+}
