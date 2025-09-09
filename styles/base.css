@@ -33,7 +33,7 @@ header nav ul{
 header nav ul li{
     padding: 15px;
 }
-header nav ul li:hover{
+nav ul li:hover{
     background-color: rgb(84, 84, 84);
 }
 header nav ul a:visited{
