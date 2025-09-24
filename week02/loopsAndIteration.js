@@ -30,3 +30,4 @@ let days = ["Monday","Tuesday", "Wednesday", "Thoursday", "Friday", "Saturday", 
 for (let i = 0; i <= DAYS; i++){
     console.log(days[i]);
 }
+
