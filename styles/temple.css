@@ -52,7 +52,7 @@ ul li {
     font-family: 'PT Sans';
 }
 
-ul li:hover {
+ul li a:hover {
     background-color: rgb(31, 121, 223);
 }
 
