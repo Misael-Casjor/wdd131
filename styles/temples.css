@@ -36,12 +36,12 @@ header nav.open{
     content: "X";
 }
 
-figure img {
+figcaption img {
     max-width: 250px;
     width: 100%;
     
 }
-figure{
+figcaption{
     justify-content: center;
     max-width: 250px;
     
