@@ -7,7 +7,33 @@ header{
     display: flex;
     justify-content: space-around;
     background-color: rgb(37, 37, 37);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#nav li:hover{
+    background-color: whitesmoke;
+}
+#nav li a:hover{
+  color:rgb(37, 37, 37);
 }
 #nav li a{
-    
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+}
+main{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows:0.3fr 2fr
+}
+.card{
+    grid-row: 2 / 3;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.cardTitle{
+    background-color: rgb(38, 38, 126);
+    color: whitesmoke;
+    margin:0;
 }
