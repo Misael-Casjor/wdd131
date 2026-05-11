@@ -1,0 +1,13 @@
+header{
+    background-color: rgb(29, 29, 117);
+    color:whitesmoke;
+}
+#nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(37, 37, 37);
+}
+#nav li a{
+    
+}
